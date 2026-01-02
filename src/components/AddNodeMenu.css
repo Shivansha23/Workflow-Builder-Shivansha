@@ -1,0 +1,49 @@
+.add-node-menu {
+  position: absolute;
+  background: white;
+  border: 2px solid #4a90e2;
+  border-radius: 8px;
+  padding: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  z-index: 1000;
+  min-width: 150px;
+}
+
+.menu-header {
+  font-weight: 600;
+  margin-bottom: 8px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #e0e0e0;
+  color: #333;
+}
+
+.menu-button {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  margin: 4px 0;
+  background: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.menu-button:hover {
+  background: #4a90e2;
+  color: white;
+  border-color: #4a90e2;
+}
+
+.menu-button.cancel {
+  background: #f0f0f0;
+  color: #666;
+  margin-top: 8px;
+  border-top: 1px solid #ddd;
+}
+
+.menu-button.cancel:hover {
+  background: #e0e0e0;
+  color: #333;
+}

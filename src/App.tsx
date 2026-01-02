@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { useWorkflow } from "./hooks/useWorkflow";
 import { Node } from "./components/Node/Node";
 import { Toolbar } from "./components/Toolbar";
@@ -46,7 +46,7 @@ function App() {
   };
 
   const handleSave = () => {
-    const json = saveWorkflow();
+    saveWorkflow();
     alert("Workflow saved to console! Check the browser console (F12).");
   };
 
